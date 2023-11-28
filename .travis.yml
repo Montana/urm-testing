@@ -9,3 +9,4 @@ script:
   - free -hm
   - docker pull jruby
   - lsmod 
+  - docker build -t jruby/jruby .
