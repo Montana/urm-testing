@@ -1,0 +1,7 @@
+os: linux
+dist: focal
+language: shell
+install: skip
+script: 
+  - sleep 1
+  - nproc 
