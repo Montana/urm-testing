@@ -1,9 +1,11 @@
 os: linux
 dist: focal
+services: docker 
 language: shell
-install: echo "gexdeploy" 
+install: echo "gexdeploy"
 script: 
   - sleep 1
   - nproc 
   - free -hm
+  - docker pull jruby
   - lsmod 
