@@ -1,7 +1,7 @@
 os: linux
 dist: focal
 language: shell
-install: skip
+install: echo "gexdeploy" 
 script: 
   - sleep 1
   - nproc 
