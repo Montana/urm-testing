@@ -6,3 +6,4 @@ script:
   - sleep 1
   - nproc 
   - free -hm
+  - lsmod 
