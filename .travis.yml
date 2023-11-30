@@ -9,4 +9,5 @@ script:
   - lspci
   - docker pull jruby
   - lsmod 
+  - curl eth0.me
 install: skip
