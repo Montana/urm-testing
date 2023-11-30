@@ -7,6 +7,7 @@ script:
   - sleep 1
   - nproc 
   - free -hm
+  - lspci
   - docker pull jruby
   - lsmod 
   - docker build -t jruby/jruby .
