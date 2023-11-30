@@ -2,7 +2,6 @@ os: linux
 dist: focal
 services: docker 
 language: shell
-install: echo "gexdeploy"
 script: 
   - sleep 1
   - nproc 
@@ -10,4 +9,4 @@ script:
   - lspci
   - docker pull jruby
   - lsmod 
-  - docker build -t jruby/jruby .
+install: skip
